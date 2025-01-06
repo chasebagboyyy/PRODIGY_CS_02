@@ -1,0 +1,180 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2706
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Arial-BoldMT;\f1\froman\fcharset0 Times-Roman;\f2\fswiss\fcharset0 ArialMT;
+}
+{\colortbl;\red255\green255\blue255;\red14\green14\blue14;\red0\green0\blue0;\red20\green0\blue196;
+}
+{\*\expandedcolortbl;;\cssrgb\c6667\c6667\c6667;\cssrgb\c0\c0\c0;\cssrgb\c10980\c0\c81176;
+}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs50\fsmilli25333 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Caesar Cipher Program
+\f1\b0\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 Hi there! This is a simple Python program I created as part of an assignment to demonstrate how the Caesar Cipher works. The Caesar Cipher is one of the oldest and simplest encryption methods, where you shift letters in the alphabet by a certain number of steps (called the shift value).
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs28 \cf2 \strokec2 This program allows you to:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li266\fi-267\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 	\'95	Encrypt a message by shifting its letters forward.
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs28 \cf2 \strokec2 \'95	Decrypt a message by shifting its letters backward to its original form.
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs38\fsmilli19333 \cf2 \strokec2 How It Works
+\f1\b0\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 When you run the program:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li426\fi-427\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 	
+\fs29\fsmilli14667 1.	It asks if you want to 
+\f0\b encrypt
+\f2\b0  or 
+\f0\b decrypt
+\f2\b0  a message.
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li426\fi-427\partightenfactor0
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	2.	You enter the message you want to process.
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	3.	You provide a shift value (this is just a number that determines how far each letter is shifted).
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	4.	The program then processes your input and gives you the result.
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs38\fsmilli19333 \cf2 \strokec2 Steps to Run the Program
+\f1\b0\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 Here\'92s how you can use it:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li426\fi-427\partightenfactor0
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	1.	Make sure you have Python 3 installed on your computer.
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	2.	Open the program in your favorite editor (I used VS Code for this).
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	3.	Run the program by typing:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs29\fsmilli14667 \cf0 python caesar_cipher.py
+\f1\fs24 \
+\pard\pardeftab720\li426\fi-427\partightenfactor0
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	4.	Follow the prompts:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li666\fi-667\partightenfactor0
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	\'95	Choose whether you want to 
+\f0\b encrypt
+\f2\b0  or 
+\f0\b decrypt
+\f2\b0 .
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	\'95	Type in your message.
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	\'95	Enter the shift value (e.g., 3 or 5).
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li426\fi-427\partightenfactor0
+
+\f2\fs29\fsmilli14667 \cf2 \strokec2 	5.	The program will print the result for you.
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs38\fsmilli19333 \cf2 \strokec2 Example
+\f1\b0\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 Let\'92s say you want to encrypt the message Hello World with a shift of 3:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li266\fi-267\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 	\'95	Input:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf0 Message: Hello World
+\f1\fs24 \
+
+\f2\fs28 Shift: \cf4 \strokec4 3
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li266\fi-267\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 	\'95	Output:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf0 Khoor Zruog
+\f1\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 If you want to decrypt Khoor Zruog back to its original message:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li266\fi-267\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 	\'95	Input:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf0 Message: Khoor Zruog
+\f1\fs24 \
+
+\f2\fs28 Shift: \cf4 \strokec4 3
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li266\fi-267\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 	\'95	Output:
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf0 Hello World
+\f1\fs24 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs38\fsmilli19333 \cf2 \strokec2 Why I Made This
+\f1\b0\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 I worked on this project to better understand how simple encryption works and to practice Python programming. It\'92s a fun way to see how cryptography started and how even basic ciphers can make text unreadable without the right key.
+\f1\fs24 \cf0 \strokec3 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs38\fsmilli19333 \cf2 \strokec2 Things to Note
+\f1\b0\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\li266\fi-267\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 	\'95	If you enter a non-integer for the shift value, the program will remind you to try again with a valid number.
+\f1\fs24 \cf0 \strokec3 \
+
+\f2\fs28 \cf2 \strokec2 	\'95	The program keeps non-alphabetic characters (like punctuation, spaces, and numbers) as they are, so your message structure doesn\'92t change.
+\f1\fs24 \cf0 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf2 \strokec2 I hope you enjoy using this program as much as I enjoyed building it! Let me know if you have any questions or feedback.
+\f1\fs24 \cf0 \strokec3 \
+\
+}
